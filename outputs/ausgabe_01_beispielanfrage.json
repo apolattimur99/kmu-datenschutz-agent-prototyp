@@ -1,1 +1,108 @@
+{
+  "customer_anonymized": {
+    "customer_id": "CUST-2025-0001",
+    "segment": "SME",
+    "country": "DE",
+    "industry": "Maschinenbau",
+    "employee_band": "100-149",
+    "source_channel": "web_form"
+  },
+  "request_structured": {
+    "received_at_utc": "2025-12-12T08:15:00Z",
+    "language": "de",
+    "use_case_summary": "Einführung eines KI-Assistenten für die Service-Hotline zur Vorqualifizierung von Anfragen und Vorschlag von Standardantworten; inkl. Architektur-/Datenschutzberatung sowie Trainings für Service-Team und IT-Administration, umgesetzt in zwei Phasen (Konzept/Prototyp und anschließende Ausweitung mit Schulungen).",
+    "requested_services": [
+      "Use-Case-Analyse & Workshop zur Einführung eines KI-Assistenten",
+      "Architekturplanung inkl. Sicherheits- und Datenschutzkonzept",
+      "Schulung Service-Team (Anwendung, Do’s & Don’ts, Datenschutz in der Nutzung)",
+      "Schulung IT-Administratoren/Key User (Rollen/Rechte, Wissensquellen, Monitoring/Logging)",
+      "Begleitender Support während der Einführungs- und Rollout-Phase"
+    ],
+    "constraints": {
+      "budget_range_eur": {
+        "min": 0,
+        "max": 30000,
+        "hint": "Budgetrahmen für das erste Projekthalbjahr ca. 30.000 EUR (netto, angenommen)."
+      },
+      "timeline": {
+        "phase_1": "Konzept & Prototyp in Q2 2026 (Apr–Jun 2026)",
+        "phase_2": "Ausweitung & Schulungen in Q3 2026 (Jul–Sep 2026)"
+      }
+    }
+  },
+  "offer_outline": {
+    "currency": "EUR",
+    "pricing": "netto",
+    "line_items": [
+      {
+        "pos": 1,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Phase 1 (Q2 2026)"
+      },
+      {
+        "pos": 2,
+        "sku": "CONS-ADV",
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4500,
+        "total_eur": 4500,
+        "phase_hint": "Phase 1 (Q2 2026)"
+      },
+      {
+        "pos": 3,
+        "sku": "TRAIN-CS",
+        "service_name": "Schulung Kundenservice-Teams",
+        "quantity": 3,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 5400,
+        "phase_hint": "Phase 2 (Q3 2026)"
+      },
+      {
+        "pos": 4,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User",
+        "quantity": 3,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 3000,
+        "phase_hint": "Phase 2 (Q3 2026)"
+      },
+      {
+        "pos": 5,
+        "sku": "SUPPORT-6M",
+        "service_name": "Begleitender Support (6 Monate)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4200,
+        "total_eur": 4200,
+        "phase_hint": "Q2–Q3 2026 (begleitend)"
+      }
+    ],
+    "subtotal_eur": 20300,
+    "notes": [
+      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
+      "Schulungsumfang ist skalierbar (z. B. zusätzliche TRAIN-CS Tage bei mehr Teilnehmenden oder getrennten Gruppen).",
+      "Optionaler Paket-Rabatt (5–10 %) kann bei Gesamtvolumen > 15.000 EUR angeboten werden (nicht in den Preisen eingerechnet).",
+      "Richtangebot, Gültigkeit 30 Tage ab Angebotsdatum; Zahlungsziel üblicherweise 14 Tage nach Rechnungsstellung."
+    ]
+  },
+  "privacy": {
+    "pii_detected_in_input": [
+      "person_name",
+      "email",
+      "phone",
+      "company_name",
+      "street_address"
+    ],
+    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden nur abstrahierte Merkmale (Segment, Branche, Land, Mitarbeiterband) verwendet.",
+    "customer_id_used": "CUST-2025-0001"
+  }
+}
 
