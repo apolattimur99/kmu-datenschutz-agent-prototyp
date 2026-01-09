@@ -3,113 +3,113 @@ Novatech Solutions GmbH – Simuliertes Unternehmenswissen (für Prototyp)
 Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Demonstration im Rahmen der Bachelorarbeit. Das Unternehmen sowie alle Angaben sind fiktiv. Preise sind Netto-Richtwerte und werden nur zur strukturierten Angebotserstellung verwendet.
 
 1. Unternehmensprofil
--Name: Novatech Solutions GmbH (fiktiv)
--Sitz: Berlin, Deutschland (fiktiv)
--Leistungsfokus: Beratung und Implementierungsunterstützung für KI-Assistenzsysteme, Prozessautomatisierung sowie Anwenderschulungen.
--Zielgruppe: Kleine und mittlere Unternehmen (KMU) aus Dienstleistung, Handel und leichter Produktion.
+	-Name: Novatech Solutions GmbH (fiktiv)
+	-Sitz: Berlin, Deutschland (fiktiv)
+	-Leistungsfokus: Beratung und Implementierungsunterstützung für KI-Assistenzsysteme, Prozessautomatisierung 	sowie Anwenderschulungen.
+	-Zielgruppe: Kleine und mittlere Unternehmen (KMU) aus Dienstleistung, Handel und leichter Produktion.
 
-Novatech unterstützt KMU bei der schrittweisen Einführung von KI-gestützten Assistenzlösungen. Der Schwerpunkt liegt auf klar abgegrenzten Use Cases, nachvollziehbarer Nutzenargumentation und einem ressourcenschonenden Vorgehen.
+	Novatech unterstützt KMU bei der schrittweisen Einführung von KI-gestützten Assistenzlösungen. Der 				Schwerpunkt liegt auf klar abgegrenzten Use Cases, nachvollziehbarer Nutzenargumentation und einem 				ressourcenschonenden Vorgehen.
 
 2. Produkt- und Serviceportfolio
 
-Die folgenden Leistungen werden im Prototyp als interne Angebotsbausteine verwendet. Identifikation und Abrechnung erfolgen über SKUs.
+	Die folgenden Leistungen werden im Prototyp als interne Angebotsbausteine verwendet. Identifikation und 		Abrechnung erfolgen über SKUs.
 
 2.1 Beratungsleistungen
 
-SKU: CONS-START
--Name: Initiales Beratungspaket KI
--Leistungsbeschreibung:
--Workshop (remote oder vor Ort) zur Analyse von Use Cases, Datenlage und IT-Landschaft
--Erarbeitung einer Zielarchitektur für einen ersten KI-Assistenten
--Standardumfang: 2 Tage
--Typische Zielgruppe: KMU mit erster Einführung eines KI-Assistenten
+	SKU: CONS-START
+		-Name: Initiales Beratungspaket KI
+		-Leistungsbeschreibung:
+		-Workshop (remote oder vor Ort) zur Analyse von Use Cases, Datenlage und IT-Landschaft
+		-Erarbeitung einer Zielarchitektur für einen ersten KI-Assistenten
+		-Standardumfang: 2 Tage
+		-Typische Zielgruppe: KMU mit erster Einführung eines KI-Assistenten
 
-SKU: CONS-ADV
--Name: Vertiefte Architektur- und Sicherheitsberatung
--Leistungsbeschreibung:
-	-Konzeption von Sicherheits- und Datenschutzmaßnahmen
-	-Rollen- und Rechtekonzepte
-	-Governance und Betriebsprozesse (z. B. Monitoring/Logging, Freigaben)
-	-Standardumfang: 3 Tage
+	SKU: CONS-ADV
+		-Name: Vertiefte Architektur- und Sicherheitsberatung
+		-Leistungsbeschreibung:
+			-Konzeption von Sicherheits- und Datenschutzmaßnahmen
+			-Rollen- und Rechtekonzepte
+			-Governance und Betriebsprozesse (z. B. Monitoring/Logging, Freigaben)
+			-Standardumfang: 3 Tage
 
 2.2 Schulungen
 
-SKU: TRAIN-CS
--Name: Schulung Kundenservice-Teams
--Leistungsbeschreibung:
--Ganztägige Schulung für bis zu 15 Personen
--Inhalte: Grundlagen, sinnvolle Prompts, Do’s & Don’ts, Datenschutz in der Anwendung
--Standardumfang: 1 Tag
+	SKU: TRAIN-CS
+		-Name: Schulung Kundenservice-Teams
+		-Leistungsbeschreibung:
+		-Ganztägige Schulung für bis zu 15 Personen
+		-Inhalte: Grundlagen, sinnvolle Prompts, Do’s & Don’ts, Datenschutz in der Anwendung
+		-Standardumfang: 1 Tag
 
-SKU: TRAIN-ADMIN
--Name: Schulung Admin & Key User
--Leistungsbeschreibung:
--Halbtägige Schulung für IT/Key User
--Inhalte: Rollen- und Rechtekonzept, Konfiguration von Wissensquellen, Monitoring und Logging
--Standardumfang: 0,5 Tag (Halbtag)
+	SKU: TRAIN-ADMIN
+		-Name: Schulung Admin & Key User
+		-Leistungsbeschreibung:
+		-Halbtägige Schulung für IT/Key User
+		-Inhalte: Rollen- und Rechtekonzept, Konfiguration von Wissensquellen, Monitoring und Logging
+		-Standardumfang: 0,5 Tag (Halbtag)
 
 2.3 Support- und Betriebsbegleitung
 
-SKU: SUPPORT-3M
--Name: Begleitender Support (3 Monate)
--Leistungsbeschreibung:
--E-Mail-Support
--Zwei Remote-Q&A-Sessions pro Monat
--Unterstützung beim Feintuning von Prompts und Wissensquellen
+	SKU: SUPPORT-3M
+		-Name: Begleitender Support (3 Monate)
+		-Leistungsbeschreibung:
+		-E-Mail-Support
+		-Zwei Remote-Q&A-Sessions pro Monat
+		-Unterstützung beim Feintuning von Prompts und Wissensquellen
 
-SKU: SUPPORT-6M
--Name: Begleitender Support (6 Monate)
--Leistungsbeschreibung:
--Leistungsumfang wie SUPPORT-3M, jedoch über 6 Monate
+	SKU: SUPPORT-6M
+		-Name: Begleitender Support (6 Monate)
+		-Leistungsbeschreibung:
+		-Leistungsumfang wie SUPPORT-3M, jedoch über 6 Monate
 
 3. Preislogik (Netto-Richtwerte)
 
-Die folgenden Preise sind Netto-Richtwerte in EUR und dienen im Prototyp der strukturierten Angebotserstellung:
--CONS-START: 3.200 EUR (Pauschale)
--CONS-ADV: 4.500 EUR (Pauschale)
--TRAIN-CS: 1.800 EUR (pro Tag)
--TRAIN-ADMIN: 1.000 EUR (pro Halbtag)
--SUPPORT-3M: 2.400 EUR (Pauschale)
--SUPPORT-6M: 4.200 EUR (Pauschale)
+	Die folgenden Preise sind Netto-Richtwerte in EUR und dienen im Prototyp der strukturierten 					Angebotserstellung:
+		-CONS-START: 3.200 EUR (Pauschale)
+		-CONS-ADV: 4.500 EUR (Pauschale)
+		-TRAIN-CS: 1.800 EUR (pro Tag)
+		-TRAIN-ADMIN: 1.000 EUR (pro Halbtag)
+		-SUPPORT-3M: 2.400 EUR (Pauschale)
+		-SUPPORT-6M: 4.200 EUR (Pauschale)
 
 3.1 Rabattlogik (Hinweis im Angebotstext)
--Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt von 5–10 % im Angebotstext erwähnt werden.
--Im JSON-Angebot wird der Rabatt nicht automatisch eingerechnet, sondern nur als Hinweis (z. B. in notes) dokumentiert.
+	-Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt von 5–10 % im Angebotstext erwähnt 		werden.
+	-Im JSON-Angebot wird der Rabatt nicht automatisch eingerechnet, sondern nur als Hinweis (z. B. in notes) 		dokumentiert.
 
 4. Angebotsrichtlinien (Prototyp)
--Angebote sind grundsätzlich unverbindliche Richtangebote.
--Standard-Gültigkeit: 30 Tage ab Angebotsdatum.
--Reise- und Nebenkosten: grundsätzlich nicht enthalten, sofern nicht ausdrücklich vereinbart.
--Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (optional als Hinweis in notes).
--Sprache: Deutsch.
+	-Angebote sind grundsätzlich unverbindliche Richtangebote.
+	-Standard-Gültigkeit: 30 Tage ab Angebotsdatum.
+	-Reise- und Nebenkosten: grundsätzlich nicht enthalten, sofern nicht ausdrücklich vereinbart.
+	-Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (optional als Hinweis in notes).
+	-Sprache: Deutsch.
 
 5. Kundensegmentierung (Heuristik)
 
-Der Prototyp segmentiert Kunden anhand der im Freitext enthaltenen Größenhinweise:
--Micro: < 10 Mitarbeitende
--Small: 10–49 Mitarbeitende
--SME: 50–249 Mitarbeitende
--Enterprise: > 250 Mitarbeitende
+	Der Prototyp segmentiert Kunden anhand der im Freitext enthaltenen Größenhinweise:
+		-Micro: < 10 Mitarbeitende
+		-Small: 10–49 Mitarbeitende
+		-SME: 50–249 Mitarbeitende
+		-Enterprise: > 250 Mitarbeitende
 
-Heuristik:
--Wenn Angaben wie „kleines Team/Start-up“ ohne Zahlen → Micro oder Small
--Wenn 50–200 Mitarbeitende erwähnt → SME
--Wenn „Konzern“ oder > 250 erwähnt → Enterprise
+	Heuristik:
+		-Wenn Angaben wie „kleines Team/Start-up“ ohne Zahlen → Micro oder Small
+		-Wenn 50–200 Mitarbeitende erwähnt → SME
+		-Wenn „Konzern“ oder > 250 erwähnt → Enterprise
 
-Das Segment wird im Feld customer_anonymized.segment abgebildet und kann bei der Wahl von Schulungsumfängen berücksichtigt werden.
+	Das Segment wird im Feld customer_anonymized.segment abgebildet und kann bei der Wahl von Schulungsumfängen 	berücksichtigt werden.
 
 6. Datenschutzrichtlinien (für Prototypbetrieb)
--In Tests sollen keine echten personenbezogenen Daten verwendet werden.
--In der prototypischen Verarbeitung gelten als PII: name, email, phone, company, address.
--Der Prototyp arbeitet ausschließlich mit abstrahierten Informationen, z. B.:
--Segment, Branche, Land/Region
--Rollenbezeichnungen (z. B. „Leitung Kundenservice“)
--Im Output werden keine konkreten Personen, Firmennamen oder exakten Adressen ausgegeben.
+	-In Tests sollen keine echten personenbezogenen Daten verwendet werden.
+	-In der prototypischen Verarbeitung gelten als PII: name, email, phone, company, address.
+	-Der Prototyp arbeitet ausschließlich mit abstrahierten Informationen, z. B.:
+	-Segment, Branche, Land/Region
+	-Rollenbezeichnungen (z. B. „Leitung Kundenservice“)
+	-Im Output werden keine konkreten Personen, Firmennamen oder exakten Adressen ausgegeben.
 
 7. Beispielhafte Use-Case-Patterns (Heuristiken)
-1. Einführung Kundenservice-Assistent
-	-Typische Kombination: CONS-START + TRAIN-CS + SUPPORT-3M
-2. Vertiefung Governance & Sicherheit
-	-Typische Kombination: CONS-ADV + TRAIN-ADMIN
-3. Schulungsfokus
-	-Typische Kombination: TRAIN-CS (1–2 Tage) + optional TRAIN-ADMIN
+	1. Einführung Kundenservice-Assistent
+		-Typische Kombination: CONS-START + TRAIN-CS + SUPPORT-3M
+	2. Vertiefung Governance & Sicherheit
+		-Typische Kombination: CONS-ADV + TRAIN-ADMIN
+	3. Schulungsfokus
+		-Typische Kombination: TRAIN-CS (1–2 Tage) + optional TRAIN-ADMIN
