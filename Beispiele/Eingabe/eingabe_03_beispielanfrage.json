@@ -1,1 +1,15 @@
-
+{
+  "customer_raw": {
+    "name": "Elena Rossi",
+    "email": "e.rossi@euro-retail-group.eu",
+    "phone": "+39 335 1122334",
+    "company": "Euro Retail Group",
+    "address": "Via Immaginaria 15, 20100 Milano, Italien"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-11T15:22:00Z",
+    "free_text": "Hello, we are a mid-sized retail group with operations in Italy, Germany and Austria. We would like to introduce an internal AI assistant for our store managers and customer support teams. Our requirements: 1) Identification of suitable use cases in customer support and store operations, 2) a reference architecture that respects EU data protection requirements, 3) training sessions for approx. 40 store managers and 20 support agents, and 4) a 6-month support option to refine prompts, knowledge base and workflows. Our internal IT prefers a phased approach with an initial pilot in Germany. Budget: we estimate around 40,000–60,000 EUR for the first year, but we would appreciate a modular proposal.",
+    "language": "en"
+  }
+}
