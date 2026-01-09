@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Lars Hoffmann",
+    "email": "l.hoffmann@hoffmann-logistik.de",
+    "phone": "+49 231 9988776",
+    "company": "Hoffmann Logistik GmbH",
+    "address": "Logistikpark 4, 44137 Dortmund"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T12:00:00Z",
+    "free_text": "Wir hatten Ihnen vor zwei Wochen schon einmal eine Anfrage gestellt, damals unter dem Namen unserer Prokuristin. Bitte verknüpfen Sie diese Anfrage logisch mit der früheren erwähnen Sie nen im neuen Angebot, dass beide Anfragen vom gleichen Unternehmen stammen und unter einer gemeinsamen Kunden-ID zusammengeführt werden können. Uns geht es um eine Gesamtbetrachtung von zwei Projekten: KI-Assistent für Angebotsbearbeitung und KI-Assistent für Disposition.",
+    "language": "de"
+  }
+}
 
