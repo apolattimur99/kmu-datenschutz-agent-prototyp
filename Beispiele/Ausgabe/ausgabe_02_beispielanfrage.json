@@ -1,1 +1,168 @@
+{
+  "customer_anonymized": {
+    "customer_id": "CUST-2025-0002",
+    "segment": "Small",
+    "country": "DE",
+    "industry": "Beratung / Digitalisierung",
+    "employee_band": "10-49",
+    "source_channel": "web_form"
+  },
+  "request_structured": {
+    "received_at_utc": "2025-12-12T09:40:00Z",
+    "language": "de",
+    "use_case_summary": "Professionalisierung der internen Nutzung von KI-Assistenten: Use Cases strukturieren, Nutzungsrichtlinien & Governance definieren sowie ein Beraterteam (ca. 25 Personen) praxisnah schulen; Umsetzung über mehrere Monate mit flexiblem Start im nächsten Quartal.",
+    "requested_services": [
+      "Use-Case-Portfolio-Workshop & Priorisierung",
+      "Governance, Nutzungsrichtlinien, Rollen- und Rechtekonzept",
+      "Praxis-Schulung für Beraterteam (Prompting, Arbeitsweisen, Qualitäts- und Compliance-Leitplanken)",
+      "Admin/Key-User Enablement (Wissensquellen, Monitoring/Logging, Betriebsprozesse)",
+      "Begleitender Support zur Adoption über mehrere Monate"
+    ],
+    "constraints": {
+      "budget_range_eur": {
+        "min": 30000,
+        "max": 60000,
+        "hint": "Kein fixer Rahmen; Orientierung an einem mittleren fünfstelligen Betrag über mehrere Monate."
+      },
+      "start_date_hint": "Flexibler Start im nächsten Quartal (Q1 2026).",
+      "timeline": {
+        "phase_1": "Strategie/Use-Case-Sortierung & Governance in Q1 2026",
+        "phase_2": "Schulungen & Adoption-Begleitung über Q1–Q2 2026"
+      }
+    }
+  },
+  "offer_outline": {
+    "currency": "EUR",
+    "pricing": "netto",
+    "line_items": [
+      {
+        "pos": 1,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Phase 1 (Q1 2026)"
+      },
+      {
+        "pos": 2,
+        "sku": "CONS-ADV",
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (Governance & Richtlinien)",
+        "quantity": 2,
+        "unit": "Pauschale",
+        "unit_price_eur": 4500,
+        "total_eur": 9000,
+        "phase_hint": "Phase 1 (Q1 2026)"
+      },
+      {
+        "pos": 3,
+        "sku": "TRAIN-CS",
+        "service_name": "Praxis-Schulung (Beraterteam, in Kohorten/Modulen)",
+        "quantity": 5,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 9000,
+        "phase_hint": "Phase 2 (Q1–Q2 2026)"
+      },
+      {
+        "pos": 4,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User",
+        "quantity": 3,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 3000,
+        "phase_hint": "Phase 2 (Q1–Q2 2026)"
+      },
+      {
+        "pos": 5,
+        "sku": "SUPPORT-6M",
+        "service_name": "Begleitender Support (6 Monate)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4200,
+        "total_eur": 4200,
+        "phase_hint": "Q1–Q2 2026 (begleitend)"
+      },
+      {
+        "pos": 6,
+        "sku": "SUPPORT-3M",
+        "service_name": "Begleitender Support (3 Monate) – Zusatzkontingent",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 2400,
+        "total_eur": 2400,
+        "phase_hint": "Q1–Q2 2026 (bei erhöhter Nachfrage)"
+      }
+    ],
+    "subtotal_eur": 30800,
+    "notes": [
+      "Annahme: Schulung TRAIN-CS wird als modulare Praxis-Schulung für das Beraterteam durchgeführt (z. B. 2 Kohorten + Vertiefungs-/Anwendungstage).",
+      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
+      "Optionaler Paket-Rabatt (5–10 %) kann bei Angebotsvolumen > 15.000 EUR angeboten werden (nicht in den Preisen eingerechnet).",
+      "Richtangebot, Gültigkeit 30 Tage ab Angebotsdatum; Zahlungsziel üblicherweise 14 Tage nach Rechnungsstellung."
+    ]
+  },
+  "privacy": {
+    "pii_detected_in_input": [
+      "person_name",
+      "email",
+      "phone",
+      "company_name",
+      "street_address"
+    ],
+    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden nur abstrahierte Merkmale (Segment, Branche, Land, Mitarbeiterband) verwendet.",
+    "cu
+
+Angebotsentwurf für anonymisierten Kunden
+
+Kundensegment: Small
+Land: DE
+Mitarbeiterband: 10-49
+Customer-ID: CUST-2025-0002
+
+Kurzbeschreibung der Anfrage
+
+Interne KI-Nutzung professionalisieren: Use Cases ordnen, Governance/Nutzungsrichtlinien definieren, Beraterteam (ca. 25 Personen) praxisnah schulen
+
+Gewünschte Leistungen:
+
+Use-Case-Portfolio & Priorisierung
+
+Governance, Richtlinien, Rollen/Rechte, Betriebsprozesse
+
+Schulungen für Beraterteam sowie Admin/Key User
+
+Begleitender Support zur Adoption über mehrere Monate
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Initiales Beratungspaket KI	1	Pauschale	3.200	3.200
+2	CONS-ADV	Vertiefte Architektur-/Sicherheitsberatung (Governance)	2	Pauschale	4.500	9.000
+3	TRAIN-CS	Praxis-Schulung (Beraterteam, Kohorten/Module)	5	Tag	1.800	9.000
+4	TRAIN-ADMIN	Schulung Admin & Key User	3	Halbtag	1.000	3.000
+5	SUPPORT-6M	Begleitender Support (6 Monate)	1	Pauschale	4.200	4.200
+6	SUPPORT-3M	Begleitender Support (3 Monate) – Zusatzkontingent	1	Pauschale	2.400	2.400
+
+Zwischensumme (netto): 30.800 €
+
+Annahmen und Hinweise
+
+Budgetrahmen (falls vorhanden): Orientierung mittlerer fünfstelliger Betrag über mehrere Monate
+
+Geplanter Start (falls vorhanden): flexibel in Q1 2026
+
+TRAIN-CS ist hier als modulare Praxis-Schulung für das Beraterteam geplant (z. B. Kohorten + Vertiefungstage).
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+Optional: Paket-Rabatt (5–10 %) bei Angebotsvolumen > 15.000 € (nicht eingerechnet).
+
+Unverbindliches Richtangebot, i. d. R. 30 Tage gültig; übliches Zahlungsziel 14 Tage.
+
+Preis-/SKU-Basis gemäß internem Leistungskatalog.
+stomer_id_used": "CUST-2025-0002"
+  }
+}
 
