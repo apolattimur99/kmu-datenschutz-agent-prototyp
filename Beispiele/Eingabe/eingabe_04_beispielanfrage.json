@@ -1,0 +1,155 @@
+{
+  "customer_anonymized": {
+    "customer_id": "CUST-2025-0004",
+    "segment": "Micro",
+    "country": "DE",
+    "industry": "Handwerk / Service",
+    "employee_band": "10-19",
+    "source_channel": "web_form"
+  },
+  "request_structured": {
+    "received_at_utc": "2025-12-10T17:05:00Z",
+    "language": "de",
+    "use_case_summary": "Ein sehr einfacher KI-Assistent zur Unterstützung bei Angebots- und E-Mail-Kommunikation (Angebote, Terminbestätigungen, Antwortmails) ohne zusätzliche komplexe Tools/Dashboards; inkl. rechtlich/Datenschutz-orientierter Leitplanken sowie Schulung für 2–3 Personen; externe IT-Betreuung vorhanden.",
+    "requested_services": [
+      "Kurz-Workshop zur Use-Case-Klärung und pragmatischen Einführung (Text-/Mail-Assistent)",
+      "Leitplanken für rechtssichere und verständliche Nutzung (inkl. Datenschutz-/Compliance-Basics)",
+      "Schulung für 2–3 Anwender (Praxis: Vorlagen, Tonalität, Qualitätscheck, Do’s & Don’ts)",
+      "Einbindung der externen IT für Basis-Setup/Account/Policies",
+      "Optionale Begleitung in den ersten Wochen zur Feinjustierung"
+    ],
+    "constraints": {
+      "budget_range_eur": {
+        "min": 8000,
+        "max": 10000,
+        "hint": "Maximalbudget für Einführungsprojekt inkl. Schulung: ca. 8.000–10.000 EUR."
+      },
+      "start_date_hint": "Flexibler Start nach Verfügbarkeit (kurzfristig möglich)."
+    }
+  },
+  "offer_outline": {
+    "currency": "EUR",
+    "pricing": "netto",
+    "line_items": [
+      {
+        "pos": 1,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI (pragmatisches Setup & Vorgehen)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Einführung"
+      },
+      {
+        "pos": 2,
+        "sku": "TRAIN-CS",
+        "service_name": "Schulung Anwender (2–3 Personen) – Praxis: Angebote & E-Mail-Antworten",
+        "quantity": 1,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 1800,
+        "phase_hint": "Einführung"
+      },
+      {
+        "pos": 3,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Enablement externe IT / Key User (Basis-Policies, Zugriff, Logging/Handling)",
+        "quantity": 1,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 1000,
+        "phase_hint": "Einführung"
+      },
+      {
+        "pos": 4,
+        "sku": "SUPPORT-3M",
+        "service_name": "Begleitender Support (3 Monate) – Feinjustierung von Prompts/Vorlagen",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 2400,
+        "total_eur": 2400,
+        "phase_hint": "Stabilisierungsphase"
+      },
+      {
+        "pos": 5,
+        "sku": "TRAIN-CS",
+        "service_name": "Zusätzlicher Schulungstag (weitere Personen/Vertiefung)",
+        "quantity": 1,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 1800,
+        "phase_hint": "Optional",
+        "optional": true
+      }
+    ],
+    "subtotal_excluding_optional_eur": 8400,
+    "optional_total_eur": 1800,
+    "subtotal_eur": 10200,
+    "notes": [
+      "Fokus auf einfache, alltagstaugliche Nutzung (keine komplexen Dashboards); praxisnahe Vorlagen/Prompt-Bausteine für Angebote, Terminbestätigungen und Antwortmails.",
+      "Rechtlich/Datenschutz: Leitplanken und Do’s & Don’ts werden im Rahmen der Beratung/Schulung erarbeitet (keine Rechtsberatung).",
+      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
+      "Option Pos. 5 nur bei Bedarf (z. B. zusätzliche Mitarbeitende oder mehr Übungsanteil)."
+    ]
+  },
+  "privacy": {
+    "pii_detected_in_input": [
+      "person_name",
+      "email",
+      "phone",
+      "company_name",
+      "street_address"
+    ],
+    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden ausschließlich abstrahierte Merkmale (Segment, Branche, Land, Mitarbeiterband) verwendet.",
+    "customer_id_used": "CUST-2025-0004"
+  }
+}
+
+Angebotsentwurf für anonymisierten Kunden
+
+Kundensegment: Micro
+Land: DE
+Mitarbeiterband: 10-19
+Customer-ID: CUST-2025-0004
+
+Kurzbeschreibung der Anfrage
+
+Einfacher KI-Assistent für Angebots- und E-Mail-Kommunikation (Angebote, Terminbestätigungen, Antwortmails), ohne komplizierte Zusatz-Tools
+
+Gewünschte Leistungen:
+
+Use-Case-Workshop & pragmatische Einführung
+
+Leitplanken für verständliche, „rechtlich saubere“ Nutzung (inkl. Datenschutz-Basics)
+
+Schulung für 2–3 Personen
+
+Einbindung externer IT (Basis-Setup/Policies)
+
+Optionale Begleitung zur Feinjustierung
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Initiales Beratungspaket KI (pragmatisches Setup & Vorgehen)	1	Pauschale	3.200	3.200
+2	TRAIN-CS	Schulung Anwender (2–3 Personen) – Praxis: Angebote & E-Mails	1	Tag	1.800	1.800
+3	TRAIN-ADMIN	Enablement externe IT / Key User (Basis-Policies, Zugriff)	1	Halbtag	1.000	1.000
+4	SUPPORT-3M	Begleitender Support (3 Monate) – Feinjustierung Vorlagen/Prompts	1	Pauschale	2.400	2.400
+5*	TRAIN-CS	Zusätzlicher Schulungstag (weitere Personen/Vertiefung)	1	Tag	1.800	1.800
+
+Zwischensumme (netto, Basis ohne Option Pos. 5): 8.400 €
+Zwischensumme (netto, inkl. Option Pos. 5): 10.200 €
+
+Annahmen und Hinweise
+
+Budgetrahmen (falls vorhanden): 8.000–10.000 € → Basis passt; Option Pos. 5 nur bei Bedarf.
+
+Geplanter Start (falls vorhanden): flexibel, kurzfristig nach Verfügbarkeit möglich.
+
+Fokus auf „einfach & verständlich“: Vorlagen/Prompt-Bausteine für typische Standardfälle, inkl. Qualitätscheck (Ton, Vollständigkeit, Haftungs-/Datenschutz-Do’s & Don’ts).
+
+Hinweis: Leitplanken unterstützen rechtssichere Nutzung, ersetzen aber keine individuelle Rechtsberatung.
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+*Pos. 5 ist optional.
