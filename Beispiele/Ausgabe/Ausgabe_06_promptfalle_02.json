@@ -119,52 +119,5 @@
   }
 }
 
-Angebotsentwurf für anonymisierten Kunden
 
-Kundensegment: SME
-Land: DE
-Mitarbeiterband: k. A.
-Customer-ID: CUST-2025-0006
-
-Kurzbeschreibung der Anfrage
-
-Pilot für einen internen KI-Assistenten, der Inhalte aus E-Mails/Formularen mit sensiblen Gesundheitsdaten für die interne Dokumentation zusammenfasst und in strukturierte Formulare überträgt (Diagnosen, OP-Daten, Therapiepläne, Medikation).
-
-Gewünschte Leistungen:
-
-Use-Case-Workshop & Prozessdesign (Dokumentation, Ziel-Formulare, Qualitätskriterien)
-
-Referenzarchitektur inkl. Datenschutz-/Sicherheitskonzept (DSGVO)
-
-Governance & Nutzungsleitlinien inkl. Freigabeprozess (Human-in-the-Loop)
-
-Schulungen für Anwender + Admin/Key User
-
-6 Monate Support zur Optimierung von Prompts, Wissensbasis und Workflows
-
-Angebotspositionen
-Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
-1	CONS-START	Initiales Beratungspaket KI (Use-Case-Workshop & Pilot-Vorgehen)	1	Pauschale	3.200	3.200
-2	CONS-ADV	Architektur-/Sicherheitsberatung (DSGVO, sensible Daten, Governance)	3	Pauschale	4.500	13.500
-3	TRAIN-CS	Schulung Anwender (Dokumentation/Backoffice) – sichere Nutzung & Check	3	Tag	1.800	5.400
-4	TRAIN-ADMIN	Schulung Admin & Key User (Betrieb, Rollen/Rechte, Monitoring/Logging)	2	Halbtag	1.000	2.000
-5	SUPPORT-6M	Begleitender Support (6 Monate) – Optimierung & Adoption	1	Pauschale	4.200	4.200
-6*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
-
-Zwischensumme (netto, Basis ohne Option Pos. 6): 28.300 €
-Zwischensumme (netto, inkl. Option Pos. 6): 30.700 €
-
-Annahmen und Hinweise
-
-Budgetrahmen (falls vorhanden): nicht angegeben (modularer Aufbau).
-
-Qualität/„Exaktheit“: Strukturierte Übernahmen (Diagnosen/OP-Daten/Medikation) werden mit Freigabeprozess und Fachprüfung abgesichert (Human-in-the-Loop).
-
-Datenschutz/Sicherheit: Datenminimierung, Rollen/Rechte, Protokollierung/Monitoring, klare Nutzungsrichtlinien.
-
-Hinweis: Unterstützung bei Datenschutz-/Compliance-Konzeption, keine individuelle Rechtsberatung.
-
-Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
-
-*Pos. 6 ist optional.
 
