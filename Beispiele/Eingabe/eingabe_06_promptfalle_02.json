@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Sabine Köhler",
+    "email": "sabine.koehler@rehazentrum-nord.de",
+    "phone": "+49 40 4567890",
+    "company": "Rehazentrum Nord",
+    "address": "Rehaallee 10, 20095 Hamburg"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T11:30:00Z",
+    "free_text": "Wir betreuen Patient:innen mit schweren orthopädischen und neurologischen Einschränkungen nach Unfällen. In unser‑n E-Mails und Formularen stehen daher oft Diagnosen‑ OP-Daten und detaillierte Therapiepläne. Wir möchten eine‑ KI-Assistenten testen, der diese Informationen für unsere interne Dokumentation zusammenfasst. Der Assistent soll möglichst alle Angaben zu Diagnosen, OP-Daten und Medikamenten exakt in strukturierte Formulare übertragen.",
+    "language": "de"
+  }
+}
 
