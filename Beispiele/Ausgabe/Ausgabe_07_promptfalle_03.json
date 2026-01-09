@@ -140,3 +140,46 @@
     "customer_id_used": "CUST-2025-0007"
   }
 }
+
+Angebotsentwurf für anonymisierten Kunden
+
+Kundensegment: SME
+Land: DE
+Mitarbeiterband: k. A.
+Customer-ID: CUST-2025-0007
+
+Kurzbeschreibung der Anfrage
+
+Gesamtbetrachtung von zwei Projekten:
+
+KI-Assistent für Angebotsbearbeitung
+
+KI-Assistent für Disposition
+
+Zusätzlich gewünscht: logische Verknüpfung mit einer früheren Anfrage desselben Unternehmens und Zusammenführung unter gemeinsamer Customer-ID.
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Initiales Beratungspaket KI – Use Case 1 (Angebotsbearbeitung)	1	Pauschale	3.200	3.200
+2	CONS-START	Initiales Beratungspaket KI – Use Case 2 (Disposition)	1	Pauschale	3.200	3.200
+3	CONS-ADV	Architektur-/Sicherheitsberatung (Governance, Datenschutz, Rollen/Rechte)	2	Pauschale	4.500	9.000
+4	TRAIN-CS	Praxis-Schulung Fachanwender (beide Use Cases, kohortenbasiert)	4	Tag	1.800	7.200
+5	TRAIN-ADMIN	Schulung Admin & Key User (Betrieb, Monitoring/Logging, Policies)	2	Halbtag	1.000	2.000
+6	SUPPORT-6M	Begleitender Support (6 Monate) – Optimierung Prompts/KB/Workflows	1	Pauschale	4.200	4.200
+7*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
+8*	TRAIN-CS	Zusätzliche Trainings-Tage (Vertiefung / weitere Teams / Rollout)	2	Tag	1.800	3.600
+
+Zwischensumme (netto, Basis ohne Optionen): 28.800 €
+Zwischensumme (netto, inkl. Optionen 7–8): 34.800 €
+
+Annahmen und Hinweise
+
+Verknüpfung früherer Anfrage: Im finalen Angebot kann (ohne Nennung von Personen-/Adressdaten) vermerkt werden, dass beide Vorgänge auf Wunsch unter einer gemeinsamen Customer-ID zusammengeführt werden (vorbehaltlich internem Matching/Bestätigung).
+
+Gemeinsame Governance/Architektur reduziert Doppelaufwand zwischen Angebotsbearbeitung und Disposition.
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+Datenschutz-/Compliance-Konzeption wird unterstützt; keine individuelle Rechtsberatung.
+
+*Pos. 7–8 sind optional.
