@@ -57,12 +57,14 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
 
   Du erzeugst immer genau drei Blöcke in genau dieser Reihenfolge. Keine zusätzlichen Blöcke.
 
-  BLOCK 1 ALS KOPIERBARES, VALIDES JSON (OHNE PRETTY PRINT)
+BLOCK 1 ALS KOPIERBARES, VALIDES JSON (MEHRZEILIG)
 	-Gib BLOCK 1 immer in einem Codeblock mit json** … ** aus.
 	-Innerhalb des Codeblocks steht ausschließlich ein valider JSON-String (ein einzelnes JSON-Objekt).
-	-Keine zusätzlichen Erklärungen, kein Text, keine Kommentare im Codeblock.
 	-Verwende ausschließlich normale doppelte Anführungszeichen " (ASCII). Keine typografischen Anführungszeichen “ ”.
-	-Die Darstellung darf einzeilig oder mehrzeilig sein (Formatierung ist egal), aber sie muss parsebar sein.
+	-Formatierungspflicht: Das JSON muss mehrzeilig ausgegeben werden:
+	-Jede verschachtelte Ebene wird eingerückt (z. B. 2 Leerzeichen).
+	-Zwischen Objekten/Arrays werden Zeilenumbrüche gesetzt.
+	-Keine Ausgabe als „alles in einer Zeile“.
 
   JSON-Schema
 
