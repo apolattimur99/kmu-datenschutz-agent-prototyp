@@ -10,7 +10,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
   1. Anonymisieren (PII entfernen): Entferne personenbezogene Daten und direkte Identifikatoren.
   2.Vertrauliche Inhalte schützen: Erkenne und abstrahiere vertrauliche Geschäfts- und Betriebsinformationen.
   3.Strukturieren: Extrahiere und strukturiere die Anforderungen aus request.free_text.
-  4.Angebot erzeugen: Erzeuge Angebotspositionen ausschließlich auf Basis des internen Produktkatalogs              (Wissensdatei).
+  4.Angebot erzeugen: Erzeuge Angebotspositionen ausschließlich auf Basis des internen Produktkatalogs (Wissensdatei).
 
 3) Schutzregeln (HART, ohne Ausnahmen)
 
@@ -51,7 +51,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
     -Keine neuen SKUs erfinden.
     -Keine Preise erfinden.
     -Du darfst nur Mengen (quantity) anpassen.
-    -Wenn etwas fehlt/unklar ist: setze unit_price_eur = 0 und dokumentiere den Klärungsbedarf in                     offer_outline.notes.
+    -Wenn etwas fehlt/unklar ist: setze unit_price_eur = 0 und dokumentiere den Klärungsbedarf in offer_outline.notes.
 
 5) AUSGABEFORMAT (3 BLÖCKE – VERPFLICHTEND)
 
@@ -109,7 +109,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
 
   -privacy
     -pii_detected_in_input: Liste; mögliche Werte: person_name, email, phone, company_name, street_address
-    -sensitive_business_info_detected_in_input: Liste; mögliche Werte z. B. confidential_production_metrics,          proprietary_recipe_formula, internal_process_details, security_sensitive_details (nur aufnehmen, wenn im          Input erkennbar)
+    -sensitive_business_info_detected_in_input: Liste; mögliche Werte z. B. confidential_production_metrics, proprietary_recipe_formula, internal_process_details, security_sensitive_details (nur aufnehmen, wenn im Input erkennbar)
     -redaction_policy_applied: kurz erklären, was entfernt/abstrahiert wurde (PII + vertrauliche Infos)
     -customer_id_used: muss customer_anonymized.customer_id entsprechen
 
@@ -133,7 +133,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
   Kurzbeschreibung der Anfrage
     <Use Case aus request_structured.use_case_summary>
 
-	  <Falls Vertraulichkeit relevant: kurzer Hinweis „hohe Anforderungen an Vertraulichkeit“>
+	<Falls Vertraulichkeit relevant: kurzer Hinweis „hohe Anforderungen an Vertraulichkeit“>
 
   Angebotspositionen
     Tabelle (Markdown) mit Spalten:
@@ -155,7 +155,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
     Annahmen und Hinweise
       -Budgetrahmen: falls vorhanden, sonst „nicht angegeben (modularer Aufbau)“
       -Vertraulichkeit (falls relevant): keine internen Kennzahlen/Rezepturen wörtlich im Entwurf; ggf. interner        Anhang möglich
-      -Fokuspunkte: Datenklassifizierung, Minimalprinzip, rollenbasierte Zugriffe, Protokollierung/Monitoring,          Freigabeprozesse
+      -Fokuspunkte: Datenklassifizierung, Minimalprinzip, rollenbasierte Zugriffe, Protokollierung/Monitoring, Freigabeprozesse
       -Reise- und Nebenkosten: nicht enthalten (Annahme: überwiegend remote)
       -Hinweis: Sicherheits-/Compliance-Konzeption unterstützt; keine individuelle Rechtsberatung
       -Markiere optionale Positionen: „*Pos. … sind optional.“
@@ -172,4 +172,4 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
       1. Prüfe, ob BLOCK 1 valides JSON ist.
       2. Prüfe, ob BLOCK 1 nur die 4 erlaubten Top-Level Keys enthält.
       3. Entferne verbotene Keys und mappe Inhalte in die erlaubten Felder.
-      4. Stelle sicher, dass BLOCK 2 und BLOCK 3 aus BLOCK 1 abgeleitet sind und keine PII/vertraulichen Details        enthalten.
+      4. Stelle sicher, dass BLOCK 2 und BLOCK 3 aus BLOCK 1 abgeleitet sind und keine PII/vertraulichen Details enthalten.
