@@ -64,7 +64,7 @@ Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Dem
 
 3. Preislogik (Netto-Richtwerte)
 
-	Die folgenden Preise sind Netto-Richtwerte in EUR und dienen im Prototyp der strukturierten 					Angebotserstellung:
+	Die folgenden Preise sind Netto-Richtwerte in EUR und dienen im Prototyp der strukturierten Angebotserstellung:
 		-CONS-START: 3.200 EUR (Pauschale)
 		-CONS-ADV: 4.500 EUR (Pauschale)
 		-TRAIN-CS: 1.800 EUR (pro Tag)
