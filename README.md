@@ -16,7 +16,9 @@ Die Ausgabe erfolgt in drei Blöcken:
 ## Prototyp nachbauen (Voraussetzungen & Schritte)
 
 ### Voraussetzungen
-- Ein ChatGPT-Konto mit Zugriff auf **Custom GPTs** (GPT-Builder).
+- Ein ChatGPT-Konto.
+- **Zum Nachbauen/Erstellen des Custom GPT:** Zugriff auf den GPT-Builder (in der Regel mit **ChatGPT Plus/Pro** bzw. Team/Enterprise/Edu).
+- **Zum reinen Nutzen/Testen eines bereits erstellten Custom GPT:** je nach Account ggf. auch ohne Abo möglich, jedoch mit möglichen Einschränkungen (z. B. Nutzungs-/Nachrichtenlimits).
 - Zugriff auf die Dateien aus diesem Repository:
   - `custom-gpt/systemprompt.txt`
   - `custom-gpt/wissenslog.txt`
