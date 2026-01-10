@@ -27,7 +27,7 @@ https://chatgpt.com/
 
 ### Schritt-für-Schritt (GPT-Builder)
 1. Öffne den GPT-Builder und wähle **„Neuer GPT“**.
-![Navigation zu GPTs](docs/screenshots/01_navigation_gpts.png)
+![Navigation zu GPTs](docs/screenshots/01_navigation_gpts.md)
 3. Wechsle in den Tab **„Konfigurieren“**.
 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
 5. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
