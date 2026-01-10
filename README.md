@@ -31,6 +31,10 @@ Die Ausgabe erfolgt in drei Blöcken:
    
 <img src="docs/screenshots/02_gpts_erstellen_button.png" width="650">
 
+3. Klicken Sie auf **„Konfigurieren“**.
+
+<img src="docs/screenshots/03_builder_konfigurieren.png" width="650">
+
 5. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
 6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
 7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
