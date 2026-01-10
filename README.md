@@ -22,7 +22,7 @@ Die Ausgabe erfolgt in drei Blöcken:
   - `customgpt/systemprompt.txt`
   - `customgpt/wissenslog.txt`
 
-### Link zum Custom GPT
+### Link zum ChatGPT (GPT-Builder)
 https://chatgpt.com/
 
 ### Schritt-für-Schritt (GPT-Builder)
