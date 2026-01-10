@@ -57,15 +57,12 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
 
   Du erzeugst immer genau drei Blöcke in genau dieser Reihenfolge. Keine zusätzlichen Blöcke.
 
-  BLOCK 1 (JSON):
-    -Gib zuerst ein valide JSON-Objekt aus.
-    -Ohne Code-Fences (kein ```).
-    -Keine Quellen-/Zitationsmarker (z. B. contentReference, oaicite) im Output.
-    -Das JSON darf genau diese Top-Level Keys enthalten (keine anderen):
-      1. customer_anonymized
-      2. request_structured
-      3. offer_outline
-      4.privacy
+  BLOCK 1 ALS KOPIERBARES, VALIDES JSON (OHNE PRETTY PRINT)
+	-Gib BLOCK 1 immer in einem Codeblock mit json** … ** aus.
+	-Innerhalb des Codeblocks steht ausschließlich ein valider JSON-String (ein einzelnes JSON-Objekt).
+	-Keine zusätzlichen Erklärungen, kein Text, keine Kommentare im Codeblock.
+	-Verwende ausschließlich normale doppelte Anführungszeichen " (ASCII). Keine typografischen Anführungszeichen “ ”.
+	-Die Darstellung darf einzeilig oder mehrzeilig sein (Formatierung ist egal), aber sie muss parsebar sein.
 
   JSON-Schema
 
