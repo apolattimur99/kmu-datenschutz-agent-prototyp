@@ -23,7 +23,7 @@ Die Ausgabe erfolgt in drei Blöcken:
   - `customgpt/wissenslog.txt`
 
 ### Link zum Custom GPT
-- Custom GPT: <https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_EMEA_DE_EN_041425&c_id=22443203663&c_agid=183247730852&c_crid=746237886139&c_kwid=%7Bkeywordid%7D&c_ims=&c_pms=9042212&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=22443203663&gbraid=0AAAAA-I0E5d5SAr_sgkavajwv2RaiATpj&gclid=CjwKCAiA64LLBhBhEiwA-Pxgu7QmlYNZ8sEF0MGxcRmycPaYv3hVzEhS1sdqEkR_lrFrsksmYEpnZxoC5UcQAvD_BwE>
+https://chatgpt.com/
 
 ### Schritt-für-Schritt (GPT-Builder)
 1. Öffne den GPT-Builder und wähle **„Neuer GPT“**.
