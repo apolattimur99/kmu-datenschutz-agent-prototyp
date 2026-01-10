@@ -45,6 +45,8 @@ Die Ausgabe erfolgt in drei Blöcken:
    - Unter **„Funktionen“** alle vier Häkchen deaktivieren (Internetsuche, Canvas, Bildgenerierung, Code-Interpreter & Datenanalyse).
    - **„Aktionen“** frei lassen (keine Aktionen hinzufügen).
 
+<img src="docs/screenshots/04_konfiguration_ausgefuellt" width="650">
+
 5. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
 6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
 7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
