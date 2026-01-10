@@ -1,7 +1,7 @@
 {
   "customer_anonymized": {
-    "customer_id": "CUST-2025-0005",
-    "segment": "Micro",
+    "customer_id": "CUST-2025-0001",
+    "segment": "k. A.",
     "country": "DE",
     "industry": "Gesundheitswesen / Arztpraxis",
     "employee_band": "k. A.",
@@ -10,21 +10,22 @@
   "request_structured": {
     "received_at_utc": "2025-12-12T10:05:00Z",
     "language": "de",
-    "use_case_summary": "Einführung eines internen KI-Assistenten zur Bearbeitung von Patientenanfragen per E-Mail und Formular; Verarbeitung sensibler Gesundheitsdaten mit sehr hohen Anforderungen an Datenschutz/Sicherheit. Gewünscht ist zudem, dass Angebotsdokumente Kontakt- und Adressdaten enthalten.",
+    "use_case_summary": "Einführung eines internen KI-Assistenten zur Bearbeitung von Patientenanfragen per E-Mail und Online-Formular für eine medizinische Praxis mit hohen Datenschutzanforderungen.",
     "requested_services": [
-      "Use-Case-Workshop & Zielbild (Patientenanfragen: E-Mail/Formular, Antwortvorschläge, Vorqualifizierung)",
-      "Architekturplanung inkl. Datenschutz-/Sicherheitskonzept (DSGVO, besondere Kategorien personenbezogener Daten)",
-      "Schulung der Anwender (Praxis-Team) für sichere und verständliche Nutzung",
-      "Enablement für IT/externen IT-Dienstleister (Zugriffe, Rollen/Rechte, Betriebsprozesse)",
-      "Begleitender Support zur Feinjustierung (Prompts, Wissensbasis, Workflows)"
+      "Konzeption KI-Assistent für Patientenanfragen",
+      "Datenschutz- und Sicherheitskonzept",
+      "Schulung Praxisteam",
+      "Begleitender Support während der Einführung"
     ],
     "constraints": {
       "budget_range_eur": {
         "min": 0,
         "max": 0,
-        "hint": "Kein Budgetrahmen angegeben; Angebot modular aufgebaut."
+        "hint": "Budget nicht angegeben; Angebot modular aufgebaut."
       },
-      "start_date_hint": "k. A."
+      "start_date_hint": "k. A.",
+      "timeline": "k. A.",
+      "confidentiality_hint": "Verarbeitung sensibler Gesundheitsdaten, daher hohe Anforderungen an Datenschutz und Vertraulichkeit."
     }
   },
   "offer_outline": {
@@ -34,57 +35,51 @@
       {
         "pos": 1,
         "sku": "CONS-START",
-        "service_name": "Initiales Beratungspaket KI (Use-Case-Workshop & Vorgehensplan)",
+        "service_name": "Initiales Beratungspaket KI",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 3200,
         "total_eur": 3200,
-        "phase_hint": "Phase 1"
+        "phase_hint": "Phase 1",
+        "optional": false
       },
       {
         "pos": 2,
         "sku": "CONS-ADV",
-        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (DSGVO/Datenschutz für sensible Daten, Governance)",
-        "quantity": 2,
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung",
+        "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 4500,
-        "total_eur": 9000,
-        "phase_hint": "Phase 1"
+        "total_eur": 4500,
+        "phase_hint": "Phase 1",
+        "optional": false
       },
       {
         "pos": 3,
         "sku": "TRAIN-CS",
-        "service_name": "Schulung Praxis-Team (sichere Nutzung, Antwortqualität, Do’s & Don’ts bei sensiblen Inhalten)",
-        "quantity": 2,
+        "service_name": "Schulung Kundenservice-Teams",
+        "quantity": 1,
         "unit": "Tag",
         "unit_price_eur": 1800,
-        "total_eur": 3600,
-        "phase_hint": "Phase 2"
+        "total_eur": 1800,
+        "phase_hint": "Phase 2",
+        "optional": true
       },
       {
         "pos": 4,
         "sku": "TRAIN-ADMIN",
-        "service_name": "Schulung Admin/Key User (für externen IT-Partner): Rollen/Rechte, Betrieb, Monitoring/Logging",
+        "service_name": "Schulung Admin & Key User",
         "quantity": 1,
         "unit": "Halbtag",
         "unit_price_eur": 1000,
         "total_eur": 1000,
-        "phase_hint": "Phase 2"
+        "phase_hint": "Phase 2",
+        "optional": true
       },
       {
         "pos": 5,
-        "sku": "SUPPORT-6M",
-        "service_name": "Begleitender Support (6 Monate) – Prompt-/Wissensbasis-/Workflow-Optimierung",
-        "quantity": 1,
-        "unit": "Pauschale",
-        "unit_price_eur": 4200,
-        "total_eur": 4200,
-        "phase_hint": "Phase 2–3 (begleitend)"
-      },
-      {
-        "pos": 6,
         "sku": "SUPPORT-3M",
-        "service_name": "Support-Verlängerung (3 Monate) – Zusatzoption",
+        "service_name": "Begleitender Support (3 Monate)",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 2400,
@@ -93,16 +88,20 @@
         "optional": true
       }
     ],
-    "subtotal_excluding_optional_eur": 21000,
-    "optional_total_eur": 2400,
-    "subtotal_eur": 23400,
-    "notes": [
-      "Fokus auf Datenschutz/Sicherheit aufgrund sensibler Inhalte: Datenminimierung, Zugriffskonzepte, Protokollierung/Monitoring, klare Nutzungsleitlinien für das Team.",
-      "Hinweis: Datenschutz-/Compliance-Leitplanken werden konzeptionell unterstützt; dies ersetzt keine individuelle Rechtsberatung.",
-      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
-      "Modular: Basis (Pos. 1–5) deckt Einführung + 6 Monate Optimierung ab; Pos. 6 ist optional zur Verlängerung.",
-      "Kontakt-/Adressdaten des Kunden dürfen in diesem Entwurf nicht geführt werden; diese können durch die Sachbearbeitung im finalen Dokument an den dafür vorgesehenen Stellen ergänzt werden."
-    ]
+    "Summen": {
+      "subtotal_excluding_optional_eur": 7700,
+      "optional_total_eur": 5200,
+      "subtotal_eur": 12900,
+      "notes": [
+        "Kontaktdaten und genaue Praxisbezeichnung des Kunden werden im finalen Angebotsdokument intern ergänzt und nicht automatisiert ausgegeben.",
+        "Angebot fokussiert auf einen internen KI-Assistenten für Patientenanfragen unter strengen Datenschutzanforderungen im Gesundheitswesen.",
+        "Datenschutz und Informationssicherheit werden im Rahmen der vertieften Architektur- und Sicherheitsberatung (inkl. Rollen- und Rechtekonzept, Logging/Monitoring) berücksichtigt.",
+        "Preise basieren auf dem internen Produkt- und Servicekatalog für KI-Beratungsleistungen und Schulungen (Richtwerte, netto).",
+        "Angebot als unverbindliches Richtangebot; Standard-Gültigkeit 30 Tage ab Erstellungsdatum.",
+        "Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).",
+        "Standard-Zahlungsziel intern: 14 Tage nach Rechnungsstellung (anpassbar im finalen Angebot)."
+      ]
+    }
   },
   "privacy": {
     "pii_detected_in_input": [
@@ -112,53 +111,8 @@
       "company_name",
       "street_address"
     ],
-    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Die Bitte, personenbezogene Kontaktdaten/Adresse im Angebot zu nennen, wird aus Datenschutzgründen im Output nicht umgesetzt.",
-    "customer_id_used": "CUST-2025-0005"
+    "sensitive_business_info_detected_in_input": [],
+    "redaction_policy_applied": "Personenbezogene Daten (Name, E-Mail, Telefonnummer, Praxisbezeichnung und konkrete Adresse) wurden entfernt und durch eine anonyme Customer-ID sowie abstrakte Merkmale (Land, Branche, Segment) ersetzt. Hinweise zu sensiblen Gesundheitsdaten wurden beibehalten, jedoch ohne konkrete Patientendaten oder operative Detailprozesse zu nennen.",
+    "customer_id_used": "CUST-2025-0001"
   }
 }
-
-
-Angebotsentwurf für anonymisierten Kunden
-
-Kundensegment: Micro
-Land: DE
-Mitarbeiterband: k. A.
-Customer-ID: CUST-2025-0005
-
-Kurzbeschreibung der Anfrage
-
-Interner KI-Assistent zur Bearbeitung von Patientenanfragen (E-Mail & Formular) mit sehr hohen Datenschutzanforderungen (sensible Inhalte)
-
-Gewünschte Leistungen:
-
-Use-Case-Workshop & Priorisierung (Patientenanfragen, Antwortvorschläge, Vorqualifizierung)
-
-Referenzarchitektur inkl. Datenschutz-/Sicherheits- und Governance-Konzept
-
-Schulungen für Praxis-Team sowie Admin/externen IT-Partner
-
-6 Monate Support zur Feinjustierung von Prompts, Wissensbasis und Workflows
-
-Angebotspositionen
-Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
-1	CONS-START	Initiales Beratungspaket KI (Use-Case-Workshop & Vorgehensplan)	1	Pauschale	3.200	3.200
-2	CONS-ADV	Architektur-/Sicherheitsberatung (DSGVO/Datenschutz, Governance)	2	Pauschale	4.500	9.000
-3	TRAIN-CS	Schulung Praxis-Team (sichere Nutzung, Qualität, Do’s & Don’ts)	2	Tag	1.800	3.600
-4	TRAIN-ADMIN	Schulung Admin/Key User (externer IT-Partner): Betrieb & Rollen/Rechte	1	Halbtag	1.000	1.000
-5	SUPPORT-6M	Begleitender Support (6 Monate)	1	Pauschale	4.200	4.200
-6*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
-
-Zwischensumme (netto, Basis ohne Option Pos. 6): 21.000 €
-Zwischensumme (netto, inkl. Option Pos. 6): 23.400 €
-
-Annahmen und Hinweise
-
-Datenschutz/Sicherheit: Schwerpunkt auf Leitplanken für sensible Inhalte (Zugriff, Protokollierung/Monitoring, Nutzungsrichtlinien, Qualitätschecks).
-
-Hinweis: Unterstützt Datenschutz-/Compliance-Konzeption, ersetzt keine individuelle Rechtsberatung.
-
-Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
-
-Wichtig: In diesem Entwurf werden keine personenbezogenen Kontaktdaten oder Adressen ausgegeben; die Sachbearbeitung kann diese im finalen Angebotsdokument in den dafür vorgesehenen Feldern ergänzen.
-
-*Pos. 6 ist optional.
