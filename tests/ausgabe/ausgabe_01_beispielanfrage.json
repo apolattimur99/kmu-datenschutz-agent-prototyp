@@ -1,118 +1,174 @@
 {
-"customer_anonymized": {
-"customer_id": "CUST-2025-0001",
-"segment": "SME",
-"country": "DE",
-"industry": "Maschinenbau",
-"employee_band": "100-149",
-"source_channel": "web_form"
+“customer_anonymized”: {
+“customer_id”: “CUST-2025-0001”,
+“segment”: “SME”,
+“country”: “DE”,
+“industry”: “Maschinenbau”,
+“employee_band”: “100-149”,
+“source_channel”: “web_form”
 },
-"request_structured": {
-"received_at_utc": "2025-12-12T08:15:00Z",
-"language": "de",
-"use_case_summary": "Einführung eines KI-gestützten Assistenzsystems zur Vorqualifizierung von Serviceanfragen sowie begleitende Architektur-, Datenschutz- und Schulungsleistungen in zwei Phasen.",
-"requested_services": [
-"KI-Use-Case-Analyse",
-"Architektur- und Datenschutzkonzept",
-"Service-Team-Schulungen",
-"Admin- und Key-User-Schulung",
-"Begleitender Support"
+“request_structured”: {
+“received_at_utc”: “2025-12-12T08:15:00Z”,
+“language”: “de”,
+“use_case_summary”: “Einführung eines KI-Assistenzsystems zur Vorqualifizierung von Service-Anfragen inkl. Architektur-/Datenschutzkonzept sowie Schulungen für Service und IT in zwei Projektphasen.”,
+“requested_services”: [
+“Use-Case-Workshop & Daten-/IT-Lagebild”,
+“Zielarchitektur für KI-Assistent (Service-Hotline)”,
+“Sicherheits- und Datenschutzkonzept (Governance, Rollen/Rechte, Logging)”,
+“Schulung Kundenservice”,
+“Schulung IT-Admins/Key User”,
+“Begleitender Support während Rollout”
 ],
-"constraints": {
-"budget_range_eur": {
-"min": 0,
-"max": 30000,
-"hint": "Budgetrahmen für das erste Halbjahr"
+“constraints”: {
+“budget_range_eur”: {
+“min”: 25000,
+“max”: 35000,
+“hint”: “Budgethinweis: ca. 30.000 EUR (für das erste Halbjahr).”
 },
-"start_date_hint": "k. A.",
-"timeline": {
-"phase_1": "Konzept & Prototyp (Q2)",
-"phase_2": "Ausweitung & Schulungen (Q3)"
+“start_date_hint”: “2026-04-01”,
+“timeline”: {
+“phase_1”: “Q2: Konzept & Prototyp”,
+“phase_2”: “Q3: Ausweitung & Schulungen”
 },
-"confidentiality_hint": "Architektur- und Datenschutzfragen mit erhöhten Vertraulichkeitsanforderungen"
+“confidentiality_hint”: “Datenschutz- und Sicherheitsanforderungen sind explizit relevant; Details werden im Entwurf nur abstrahiert behandelt.”
 }
 },
-"offer_outline": {
-"currency": "EUR",
-"pricing": "netto",
-"line_items": [
+“offer_outline”: {
+“currency”: “EUR”,
+“pricing”: “netto”,
+“line_items”: [
 {
-"pos": 1,
-"sku": "CONS-START",
-"service_name": "Initiales Beratungspaket KI",
-"quantity": 1,
-"unit": "Pauschale",
-"unit_price_eur": 3200,
-"total_eur": 3200,
-"phase_hint": "Phase 1",
-"optional": false
+“pos”: 1,
+“sku”: “CONS-START”,
+“service_name”: “Initiales Beratungspaket KI”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 3200,
+“total_eur”: 3200,
+“phase_hint”: “Phase 1”,
+“optional”: false
 },
 {
-"pos": 2,
-"sku": "CONS-ADV",
-"service_name": "Vertiefte Architektur- und Sicherheitsberatung",
-"quantity": 1,
-"unit": "Pauschale",
-"unit_price_eur": 4500,
-"total_eur": 4500,
-"phase_hint": "Phase 1",
-"optional": false
+“pos”: 2,
+“sku”: “CONS-ADV”,
+“service_name”: “Vertiefte Architektur- und Sicherheitsberatung”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 4500,
+“total_eur”: 4500,
+“phase_hint”: “Phase 1”,
+“optional”: false
 },
 {
-"pos": 3,
-"sku": "TRAIN-CS",
-"service_name": "Schulung Kundenservice-Teams",
-"quantity": 2,
-"unit": "Tag",
-"unit_price_eur": 1800,
-"total_eur": 3600,
-"phase_hint": "Phase 2",
-"optional": false
+“pos”: 3,
+“sku”: “SUPPORT-6M”,
+“service_name”: “Begleitender Support (6 Monate)”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 4200,
+“total_eur”: 4200,
+“phase_hint”: “Phase 2”,
+“optional”: false
 },
 {
-"pos": 4,
-"sku": "TRAIN-ADMIN",
-"service_name": "Schulung Admin & Key User",
-"quantity": 1,
-"unit": "Halbtag",
-"unit_price_eur": 1000,
-"total_eur": 1000,
-"phase_hint": "Phase 2",
-"optional": false
+“pos”: 4,
+“sku”: “TRAIN-CS”,
+“service_name”: “Schulung Kundenservice-Teams”,
+“quantity”: 1,
+“unit”: “Tag”,
+“unit_price_eur”: 1800,
+“total_eur”: 1800,
+“phase_hint”: “Phase 2”,
+“optional”: false
 },
 {
-"pos": 5,
-"sku": "SUPPORT-3M",
-"service_name": "Begleitender Support (3 Monate)",
-"quantity": 1,
-"unit": "Pauschale",
-"unit_price_eur": 2400,
-"total_eur": 2400,
-"phase_hint": "Optional",
-"optional": true
+“pos”: 5,
+“sku”: “TRAIN-ADMIN”,
+“service_name”: “Schulung Admin & Key User”,
+“quantity”: 1,
+“unit”: “Halbtag”,
+“unit_price_eur”: 1000,
+“total_eur”: 1000,
+“phase_hint”: “Phase 2”,
+“optional”: false
+},
+{
+“pos”: 6,
+“sku”: “CONS-START”,
+“service_name”: “Zusätzlicher Use-Case-/Prozess-Workshop (Erweiterung)”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 3200,
+“total_eur”: 3200,
+“phase_hint”: “Optional”,
+“optional”: true
+},
+{
+“pos”: 7,
+“sku”: “CONS-ADV”,
+“service_name”: “Zusätzliche Architektur-/Datenschutz-Iteration (Hardening)”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 4500,
+“total_eur”: 4500,
+“phase_hint”: “Optional”,
+“optional”: true
+},
+{
+“pos”: 8,
+“sku”: “CONS-ADV”,
+“service_name”: “Governance- & Betriebsprozesse (Rollout-Erweiterung)”,
+“quantity”: 1,
+“unit”: “Pauschale”,
+“unit_price_eur”: 4500,
+“total_eur”: 4500,
+“phase_hint”: “Optional”,
+“optional”: true
+},
+{
+“pos”: 9,
+“sku”: “TRAIN-CS”,
+“service_name”: “Zusätzlicher Schulungstag Kundenservice (2. Termin/weitere Gruppe)”,
+“quantity”: 1,
+“unit”: “Tag”,
+“unit_price_eur”: 1800,
+“total_eur”: 1800,
+“phase_hint”: “Optional”,
+“optional”: true
+},
+{
+“pos”: 10,
+“sku”: “TRAIN-ADMIN”,
+“service_name”: “Zusätzlicher Halbtag Admin/Key User (Vertiefung)”,
+“quantity”: 1,
+“unit”: “Halbtag”,
+“unit_price_eur”: 1000,
+“total_eur”: 1000,
+“phase_hint”: “Optional”,
+“optional”: true
 }
 ],
-"subtotal_excluding_optional_eur": 12300,
-"optional_total_eur": 2400,
-"subtotal_eur": 14700,
-"notes": [
-"Angebot basiert auf abstrahierten Anforderungen ohne personenbezogene Daten.",
-"Datenschutz- und Sicherheitskonzepte werden ohne Offenlegung interner Kennzahlen oder Prozesse erstellt.",
-"Optionale Positionen können je nach Projektverlauf ergänzt oder weggelassen werden.",
-"Ein möglicher Paket-Rabatt kann bei höherem Gesamtvolumen separat geprüft werden.",
-"Kontaktdaten werden im finalen Angebotsdokument intern ergänzt."
+“subtotal_excluding_optional_eur”: 14700,
+“optional_total_eur”: 15000,
+“subtotal_eur”: 29700,
+“notes”: [
+“Kontakt- und Adressdaten werden im finalen Angebotsdokument bei Bedarf intern ergänzt (nicht im Entwurf ausgegeben).”,
+“Datenschutz/Vertraulichkeit: Keine wörtliche Übernahme von personenbezogenen Daten oder vertraulichen Betriebsinformationen; technische Details werden abstrahiert beschrieben.”,
+“Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).”,
+“Richtangebot, unverbindlich; typische Gültigkeit 30 Tage. Zahlungsziel i. d. R. 14 Tage nach Rechnungsstellung.”,
+“Hinweis: Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt (5–10 %) geprüft werden (nicht eingepreist).”
 ]
 },
-"privacy": {
-"pii_detected_in_input": [
-"person_name",
-"email",
-"phone",
-"company_name",
-"street_address"
+“privacy”: {
+“pii_detected_in_input”: [
+“person_name”,
+“email”,
+“phone”,
+“company_name”,
+“street_address”
 ],
-"sensitive_business_info_detected_in_input": [],
-"redaction_policy_applied": "Alle personenbezogenen Daten und identifizierenden Angaben wurden entfernt und durch eine künstliche Customer-ID sowie abstrahierte Unternehmensmerkmale ersetzt.",
-"customer_id_used": "CUST-2025-0001"
+“sensitive_business_info_detected_in_input”: [],
+“redaction_policy_applied”: “Personenbezogene Daten (Name, E-Mail, Telefon, Firma, Adresse) wurden entfernt und durch eine künstliche Customer-ID ersetzt. Inhaltlich wurden nur abstrahierte Unternehmens- und Use-Case-Merkmale übernommen; keine vertraulichen Betriebsdetails werden wörtlich wiedergegeben.”,
+“customer_id_used”: “CUST-2025-0001”
 }
 }
