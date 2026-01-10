@@ -1,32 +1,31 @@
 {
   "customer_anonymized": {
-    "customer_id": "CUST-2025-0006",
-    "segment": "SME",
+    "customer_id": "CUST-2025-0001",
+    "segment": "k. A.",
     "country": "DE",
-    "industry": "Gesundheitswesen / Rehabilitation",
+    "industry": "Gesundheitswesen / Reha-Einrichtung",
     "employee_band": "k. A.",
     "source_channel": "web_form"
   },
   "request_structured": {
     "received_at_utc": "2025-12-12T11:30:00Z",
     "language": "de",
-    "use_case_summary": "Pilot für einen internen KI-Assistenten, der Inhalte aus E-Mails/Formularen mit sensiblen Gesundheitsdaten (u. a. Diagnosen, OP-Daten, Therapiepläne, Medikation) für die interne Dokumentation zusammenfasst und in strukturierte Formulare überträgt; besonderer Fokus auf Datenschutz, Sicherheit und Qualitätssicherung.",
+    "use_case_summary": "Test eines KI-Assistenzsystems zur Zusammenfassung medizinischer Patientendaten in strukturierte interne Dokumentationsformulare.",
     "requested_services": [
-      "Use-Case-Workshop & Prozessdesign (Dokumentations-Workflow, Ziel-Formulare, Qualitätskriterien)",
-      "Architekturplanung inkl. Datenschutz-/Sicherheitskonzept (DSGVO, besondere Kategorien personenbezogener Daten)",
-      "Governance & Nutzungsleitlinien (Rollen/Rechte, Protokollierung, Freigabeprozesse, Human-in-the-Loop)",
-      "Schulung der Anwender (Dokumentation/Service/Backoffice) für sichere Nutzung und Qualitätssicherung",
-      "Enablement für IT/Key User (Betrieb, Monitoring/Logging, Wissensquellen, Policies)",
-      "Begleitender Support (6 Monate) zur Optimierung von Prompts, Wissensbasis und Workflows"
+      "Analyse Use Case KI-Dokumentationsassistent",
+      "Architektur- und Datenschutzkonzept für medizinische Daten",
+      "Schulung Fach- und Verwaltungspersonal",
+      "Begleitender Support für Pilotbetrieb"
     ],
     "constraints": {
       "budget_range_eur": {
         "min": 0,
         "max": 0,
-        "hint": "Kein Budgetrahmen angegeben; Angebot modular aufgebaut."
+        "hint": "Kein Budgetrahmen genannt; Angebot modular gestaltet."
       },
       "start_date_hint": "k. A.",
-      "quality_requirement_hint": "„Exakte“ Übertragung medizinischer Angaben wird als Qualitätsziel adressiert; Ausgaben erfordern Validierung durch Fachpersonal (Human-in-the-Loop)."
+      "timeline": "k. A.",
+      "confidentiality_hint": "Umgang mit hochsensiblen Gesundheitsdaten (Diagnosen, OP-Daten, Medikations- und Therapiepläne)."
     }
   },
   "offer_outline": {
@@ -36,74 +35,74 @@
       {
         "pos": 1,
         "sku": "CONS-START",
-        "service_name": "Initiales Beratungspaket KI (Use-Case-Workshop & Pilot-Vorgehen)",
+        "service_name": "Initiales Beratungspaket KI",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 3200,
         "total_eur": 3200,
-        "phase_hint": "Phase 1 (Pilot)"
+        "phase_hint": "Phase 1",
+        "optional": false
       },
       {
         "pos": 2,
         "sku": "CONS-ADV",
-        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (DSGVO, sensible Daten, Governance & Qualitätsprozess)",
-        "quantity": 3,
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung",
+        "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 4500,
-        "total_eur": 13500,
-        "phase_hint": "Phase 1 (Pilot)"
+        "total_eur": 4500,
+        "phase_hint": "Phase 1",
+        "optional": false
       },
       {
         "pos": 3,
         "sku": "TRAIN-CS",
-        "service_name": "Schulung Anwender (Dokumentation/Backoffice) – sichere Nutzung & Qualitätscheck",
-        "quantity": 3,
+        "service_name": "Schulung Kundenservice- / Fach-Teams",
+        "quantity": 1,
         "unit": "Tag",
         "unit_price_eur": 1800,
-        "total_eur": 5400,
-        "phase_hint": "Phase 2 (Enablement)"
+        "total_eur": 1800,
+        "phase_hint": "Phase 2",
+        "optional": false
       },
       {
         "pos": 4,
-        "sku": "TRAIN-ADMIN",
-        "service_name": "Schulung Admin & Key User (Betrieb, Rollen/Rechte, Monitoring/Logging, Policies)",
-        "quantity": 2,
-        "unit": "Halbtag",
-        "unit_price_eur": 1000,
-        "total_eur": 2000,
-        "phase_hint": "Phase 1–2"
-      },
-      {
-        "pos": 5,
-        "sku": "SUPPORT-6M",
-        "service_name": "Begleitender Support (6 Monate) – Prompt-/Workflow-Optimierung & Adoption",
-        "quantity": 1,
-        "unit": "Pauschale",
-        "unit_price_eur": 4200,
-        "total_eur": 4200,
-        "phase_hint": "Phase 2 (begleitend)"
-      },
-      {
-        "pos": 6,
         "sku": "SUPPORT-3M",
-        "service_name": "Support-Verlängerung (3 Monate) – Zusatzoption",
+        "service_name": "Begleitender Support (3 Monate)",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 2400,
         "total_eur": 2400,
+        "phase_hint": "Phase 2",
+        "optional": false
+      },
+      {
+        "pos": 5,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User",
+        "quantity": 1,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 1000,
         "phase_hint": "Optional",
         "optional": true
       }
     ],
-    "subtotal_excluding_optional_eur": 28300,
-    "optional_total_eur": 2400,
-    "subtotal_eur": 30700,
-    "notes": [
-      "Sensible Gesundheitsdaten: Fokus auf Datenminimierung, Zugriffskonzepte, Protokollierung/Monitoring und klare Nutzungsleitlinien; zusätzlich Freigabe-/Vier-Augen-Prinzip für strukturierte Extraktionen.",
-      "Qualität: Ziel ist hohe Extraktionsgenauigkeit (Diagnosen/OP-Daten/Medikation), jedoch sind KI-Ausgaben grundsätzlich durch Fachpersonal zu prüfen; keine Nutzung für klinische Entscheidungen ohne Validierung.",
-      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
-      "Hinweis: Datenschutz-/Compliance-Konzeption wird unterstützt; dies ersetzt keine individuelle Rechtsberatung."
-    ]
+    "Summen": {
+      "subtotal_excluding_optional_eur": 11900,
+      "optional_total_eur": 1000,
+      "subtotal_eur": 12900,
+      "notes": [
+        "Kundendaten (z. B. Name, Adresse, Kontaktdaten) werden im finalen Angebot intern aus dem CRM ergänzt und sind im vorliegenden Entwurf bewusst nicht enthalten.",
+        "Der vorgeschlagene Leistungsumfang adressiert insbesondere den datenschutzkonformen Umgang mit hochsensiblen Gesundheitsdaten (Diagnosen, OP-Daten, Medikations- und Therapiepläne).",
+        "Die Ausgestaltung des KI-Assistenten erfolgt strikt nach dem Minimalprinzip (nur notwendige Daten), mit klaren Rollen- und Rechtekonzepten sowie Protokollierung der Nutzung.",
+        "Reise- und Nebenkosten sind nicht enthalten; es wird von überwiegend remote erbrachten Leistungen ausgegangen.",
+        "Dieses Angebot versteht sich als unverbindliches Richtangebot. Detaillierte rechtliche Prüfung (z. B. im Hinblick auf Medizinrecht, DSGVO, Berufsgeheimnis) erfolgt durch die Rechtsberatung des Kunden.",
+        "Bei Erweiterung des Leistungsumfangs über ein Gesamtvolumen von 15.000 EUR kann intern ein Paket-Rabatt geprüft werden.",
+        "Standard-Gültigkeit des Angebots: 30 Tage ab finalem Angebotsdatum (intern zu setzen).",
+        "Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (sofern intern nicht anders vereinbart)."
+      ]
+    }
   },
   "privacy": {
     "pii_detected_in_input": [
@@ -111,59 +110,12 @@
       "email",
       "phone",
       "company_name",
-      "street_address",
-      "health_data_context"
+      "street_address"
     ],
-    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden nur abstrahierte Merkmale (Branche, Land, Segment) sowie der fachliche Bedarf beschrieben.",
-    "customer_id_used": "CUST-2025-0006"
+    "sensitive_business_info_detected_in_input": [
+      "sensitive_health_data"
+    ],
+    "redaction_policy_applied": "Personenbezogene Daten (Name, E-Mail, Telefon, Firmenbezeichnung, Adresse) sowie konkrete medizinische Angaben wurden nicht in den Entwurf übernommen, sondern durch abstrahierte Beschreibungen ersetzt.",
+    "customer_id_used": "CUST-2025-0001"
   }
 }
-
-Angebotsentwurf für anonymisierten Kunden
-
-Kundensegment: SME
-Land: DE
-Mitarbeiterband: k. A.
-Customer-ID: CUST-2025-0006
-
-Kurzbeschreibung der Anfrage
-
-Pilot für einen internen KI-Assistenten, der Inhalte aus E-Mails/Formularen mit sensiblen Gesundheitsdaten für die interne Dokumentation zusammenfasst und in strukturierte Formulare überträgt (Diagnosen, OP-Daten, Therapiepläne, Medikation).
-
-Gewünschte Leistungen:
-
-Use-Case-Workshop & Prozessdesign (Dokumentation, Ziel-Formulare, Qualitätskriterien)
-
-Referenzarchitektur inkl. Datenschutz-/Sicherheitskonzept (DSGVO)
-
-Governance & Nutzungsleitlinien inkl. Freigabeprozess (Human-in-the-Loop)
-
-Schulungen für Anwender + Admin/Key User
-
-6 Monate Support zur Optimierung von Prompts, Wissensbasis und Workflows
-
-Angebotspositionen
-Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
-1	CONS-START	Initiales Beratungspaket KI (Use-Case-Workshop & Pilot-Vorgehen)	1	Pauschale	3.200	3.200
-2	CONS-ADV	Architektur-/Sicherheitsberatung (DSGVO, sensible Daten, Governance)	3	Pauschale	4.500	13.500
-3	TRAIN-CS	Schulung Anwender (Dokumentation/Backoffice) – sichere Nutzung & Check	3	Tag	1.800	5.400
-4	TRAIN-ADMIN	Schulung Admin & Key User (Betrieb, Rollen/Rechte, Monitoring/Logging)	2	Halbtag	1.000	2.000
-5	SUPPORT-6M	Begleitender Support (6 Monate) – Optimierung & Adoption	1	Pauschale	4.200	4.200
-6*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
-
-Zwischensumme (netto, Basis ohne Option Pos. 6): 28.300 €
-Zwischensumme (netto, inkl. Option Pos. 6): 30.700 €
-
-Annahmen und Hinweise
-
-Budgetrahmen (falls vorhanden): nicht angegeben (modularer Aufbau).
-
-Qualität/„Exaktheit“: Strukturierte Übernahmen (Diagnosen/OP-Daten/Medikation) werden mit Freigabeprozess und Fachprüfung abgesichert (Human-in-the-Loop).
-
-Datenschutz/Sicherheit: Datenminimierung, Rollen/Rechte, Protokollierung/Monitoring, klare Nutzungsrichtlinien.
-
-Hinweis: Unterstützung bei Datenschutz-/Compliance-Konzeption, keine individuelle Rechtsberatung.
-
-Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
-
-*Pos. 6 ist optional.
